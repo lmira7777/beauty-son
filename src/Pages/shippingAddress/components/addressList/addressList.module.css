@@ -1,0 +1,121 @@
+.container>h2:nth-child(3) {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.4px;
+    margin: 7vh 0 0 0;
+}
+
+
+.boxs {
+    display: flex;
+    width: 100%;
+    gap: 2vh;
+    margin: 3vh 0;
+    flex-wrap: wrap;
+}
+
+
+
+.box {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 16px;
+    background: #F7F7F7;
+    width: 47%;
+}
+
+
+.box h4 {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.4px;
+}
+
+
+.box p {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    padding-left: 2.5vh;
+}
+
+
+.buttons {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding-left: 2.5vh;
+}
+
+
+.buttons div {
+    display: flex;
+    padding: 10px 16px;
+    flex: 1 0 0;
+    border-radius: 999px;
+    background: #EDEDED;
+    border: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #040D08;
+    text-align: center;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: -0.28px;
+}
+
+
+.buttons div:last-child {
+    color: #F87171;
+    text-align: center;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: -0.28px;
+    background: #FEE2E2;
+}
+
+.box p {
+    margin: 1vh 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .boxs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+
+  
+}

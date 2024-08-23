@@ -1,0 +1,205 @@
+.container {
+    background: #FFF;
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Kaydırma öğesi için overflow: hidden */
+}
+
+.container>p {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    z-index: 1000;
+    background-color: #FFF;
+}
+
+.container>p span {
+    margin: 0 0.6vh;
+}
+
+.container span {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    padding: 24px 30px;
+    flex-direction: column;
+    overflow-y: auto; 
+    flex: 1; 
+}
+
+.item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 4vh 0;
+    border-bottom: 1px solid #EDEDED;
+    justify-content: space-between;
+}
+
+.name {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: -0.28px;
+}
+
+.price {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: -0.28px;
+}
+
+.orderCount,
+.orderCount span {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: -0.28px;
+}
+
+.productIMG {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    padding: 10px 25.097px 10px 24px;
+    justify-content: center;
+    align-items: center;
+    background: #F7F7F7;
+}
+
+.productIMG img {
+    scale: 0.2;
+}
+
+.product {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.removeItem {
+    display: flex;
+    height: max-content;
+    align-self: center;
+    cursor: pointer;
+}
+
+/* Scroll bar istəyə görə istifadə edile bilər. */
+.products::-webkit-scrollbar {
+    width: 7px !important;
+}
+
+.products::-webkit-scrollbar-track {
+    background: #ffffff !important;
+}
+
+.products::-webkit-scrollbar-thumb {
+    background-color: #c2c2c2 !important;
+    border-radius: 999px !important;
+    width: 5px;
+    cursor: pointer;
+}
+
+.checkout {
+    width: 100%;
+    padding: 24px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    position: absolute; /* Absolute positioning */
+    bottom: 0; /* Fixed to the bottom */
+    background: #FFF;
+    border-top: 1px solid #EDEDED;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+#viewCartBTN {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 999px;
+    border: 1px solid #5F7A69;
+    color: #5F7A69;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    background-color: transparent;
+}
+
+#checkoutBTN {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 999px;
+    background: #5F7A69;
+    border: none;
+    color: #ffffffc2;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+
+
+#checkoutBTN.disabled {
+    background: #d3d3d3; 
+    color: #a9a9a9;
+    cursor: not-allowed;
+}
+
+

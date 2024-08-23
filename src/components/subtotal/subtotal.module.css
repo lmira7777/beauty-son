@@ -1,0 +1,128 @@
+.container {
+    width: 27%;
+    gap: 11px;
+    display: flex;
+    height: max-content;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px solid #DFDFDF;
+    background: var #FFF;
+}
+
+.container>div:not(.discountCode) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.subtotal *,
+.grandTotal * {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+
+.container>button {
+    display: flex;
+    width: 312px;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 999px;
+    background: #5F7A69;
+
+    border: none;
+    cursor: pointer;
+}
+
+.container>button >* {
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+
+.deliveryChange *,
+.discountCode P {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+
+.discountCode form {
+    width: 100%;
+    position: relative;
+    margin: 1vh 0;
+}
+
+.discountCode {
+    width: 100%;
+}
+
+
+.discountCode form input[type="text"] {
+    padding: 12px 16px;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 999px;
+    border: 1px solid #5F7A69;
+    width: 100%;
+
+}
+
+
+.discountCode form input[type="text"]:focus {
+    outline: none;
+}
+
+.discountCode form input[type="submit"] {
+    position: absolute;
+    display: flex;
+    width: 114px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    border-radius: 999px;
+    background: #5F7A69;
+    border: none;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+
+}

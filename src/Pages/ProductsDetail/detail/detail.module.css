@@ -1,0 +1,393 @@
+.container {
+    display: flex;
+    width: 87%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.horizontalImages {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+}
+
+.contianerImage {
+    background: #F7F7F7;
+    display: flex;
+    padding: 15.81px 24.595px 15.81px 25.13px;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 1.6vh;
+}
+
+.contianerImage img {
+    scale: 0.3;
+}
+
+.mainImage {
+    display: flex;
+    width: 550px;
+    height: 550px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F7F7F7;
+    margin-left: 3vh;
+}
+
+
+.mainImage img {
+    scale: 2;
+}
+
+
+.productAbout h5 {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126%;
+    letter-spacing: -0.96px;
+}
+
+.raiting {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+
+.raiting span * {
+    margin-right: 0.3vh;
+}
+
+.raiting p {
+    margin: 0 1vh;
+}
+
+.productAbout>* {
+    margin: 1vh 0;
+}
+
+#buyNow {
+    display: flex;
+    width: 100%;
+    border: none;
+    margin: auto;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 999px;
+    background: #5F7A69;
+    color: #EDEDED;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    margin: 3vh 0;
+    cursor: pointer;
+}
+
+.raiting p {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+
+.about {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+
+.productAbout {
+    width: 45%;
+}
+
+
+.payment {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment .productQuantity {
+    border: 1px solid #EDEDED;
+    width: 152px;
+    border-radius: 999px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productQuantity button {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    width: 35%;
+    font-size: 30px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.productQuantity span {
+    color: #040D08;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+.addToCard {
+    background-color: transparent;
+    border-radius: 999px;
+    width: 50%;
+    border: 1px solid #5F7A69;
+    color: #5F7A69;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    cursor: pointer;
+}
+
+#favorites {
+    background-color: transparent;
+    border: 1px solid #EDEDED;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    cursor: pointer;
+}
+
+.paymentMethod {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    background: #F7F7F7;
+    padding: 4vh 0;
+}
+
+
+.paymentMethod div {
+    width: 50%;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.shipping {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #EDEDED;
+    padding: 2vh 0;
+}
+
+
+
+.shipping p {
+    display: flex;
+    align-items: center;
+    margin: 1vh 0;
+}
+
+
+.shipping svg {
+    margin-right: 2vh;
+}
+
+
+.share {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0;
+}
+
+
+.share>div {
+    display: flex;
+    width: 30%;
+    margin: 1vh 0;
+}
+
+.share p {
+    margin: 0.5vh 0;
+    color: #040D08;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 155%;
+    letter-spacing: -0.36px;
+}
+
+
+.share>div div {
+    display: flex;
+    width: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    gap: 10px;
+    border: 1px solid #EDEDED;
+    margin-right: 2vh;
+}
+
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+
+.price {
+    display: flex;
+    gap: 1vh;
+    width: max-content;
+}
+
+.price p:first-child {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.4px;
+}
+
+.price p:last-child {
+    color: #A1A1A1;
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.4px;
+    text-decoration-line: strikethrough;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .container {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .mainImage {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .mainImage img {
+        max-width: 100%;
+    }
+
+
+    .horizontalImages {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        padding: 2vh 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .horizontalImages div {
+        display: flex;
+        width: 74px;
+        height: 74px;
+        padding: 10px 25px 9px 26px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .productAbout {
+        width: 100%;
+    }
+
+
+    .productAbout h5 {
+        font-size: 48px;
+        line-height: 126%;
+    }
+
+    .raiting {
+        display: flex;
+        width: 100%;
+    }
+
+
+    .about {
+        color: #040D08;
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%;
+        letter-spacing: -0.32px;
+    }
+
+
+    .payment {
+        gap: 2vh;
+    }
+
+
+    #favorites {
+        display: flex;
+        width: 56px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}

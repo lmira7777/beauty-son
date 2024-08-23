@@ -1,0 +1,146 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.BenfisOfProduct {
+    width: 100%;
+    background-color: #F5F8F5;
+    padding: 20vh 0;
+}
+
+.product {
+    display: flex;
+    margin: 2vh 0;
+    justify-content: space-between;
+}
+
+.container>p {
+    color: #7B7B7B;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 155%;
+    letter-spacing: -0.36px;
+}
+
+
+.container>h2 {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126%;
+    letter-spacing: -0.96px;
+}
+
+
+
+
+.product>img {
+    width: 511.11px;
+    height: 630.5px;
+}
+
+.benfis h2 {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155%;
+    letter-spacing: -0.36px;
+}
+
+
+.benfis .box {
+    border: 1px solid #EDEDED;
+    padding: 2vh 5vh;
+    margin: 2.5vh 0;
+    border-radius: 15px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+
+.benfis p {
+    color: #7B7B7B;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: -0.32px;
+}
+
+
+
+
+.benfis .box:hover {
+    background-color: #5F7A69;
+    color: white;
+}
+
+
+.benfis .box:hover h2,
+.benfis .box:hover p {
+    color: white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container h2 {
+        font-size: 30px;
+    }
+
+    .container p {
+        font-size: 16px;
+    }
+
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .product>img {
+        width: 100%;
+        object-fit: contain;
+        margin: 0;
+        height: max-content;
+    }
+
+
+    .benfis {
+        width: 100%;
+    }
+
+    .box h2 {
+        font-size: 18px;
+    }
+
+    .box p {
+        font-size: 16px;
+    }
+
+
+    .benfis .box {
+        padding: 2vh 2.5vh;
+        margin: 2.5vh 0;
+    }
+}

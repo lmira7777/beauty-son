@@ -1,0 +1,193 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20vh 0;
+}
+
+
+.container>h3 {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: -0.96px;
+}
+
+.container>p {
+    color: #7B7B7B;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.5;
+    letter-spacing: -0.36px;
+}
+
+
+.comments {
+    display: flex;
+    margin: 5vh 0;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    max-width: 32%;
+    gap: 3vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.profile {
+    display: flex;
+
+}
+
+.profile img {
+    padding: 0 1vh;
+}
+
+
+
+.nameAndJobs h3 {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    width: max-content;
+}
+
+.nameAndJobs {
+    max-width: max-content;
+}
+
+.nameAndJobs p {
+    color: #7B7B7B;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: -0.28px;
+    width: max-content;
+}
+
+
+.comment h3 {
+    color:  #040D08;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132%; 
+    letter-spacing: -0.48px;
+}
+
+.buttons {
+    display: flex;
+    width: 9%;
+    justify-content: space-between;
+}
+
+.buttons p {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: #5F7A69;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #A1A1A1;
+}
+
+.comment p {
+    color: var(--Color-Gray-700, #7B7B7B);
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; 
+    letter-spacing: -0.32px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 90%;
+        padding: 5vh 0;
+        gap: 1vh;
+
+    }
+
+    .container h3 {
+        font-size: 30px;
+        line-height: 120%;
+    }
+
+
+    .container p {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+
+    .comments {
+        flex-direction: column;
+        gap: 6vh;
+    }
+
+    .box {
+        max-width: 100%;
+    }
+
+
+    .nameAndJobs h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .nameAndJobs p {
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .comment h3 {
+        color:#040D08;
+        font-family: Jost;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 132%;
+        letter-spacing: -0.48px;
+    }
+
+    .comment p {
+        color: #7B7B7B;
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%;
+        letter-spacing: -0.32px;
+    }
+
+
+    .box {
+        height: max-content;
+        gap: 3vh;
+    }
+}

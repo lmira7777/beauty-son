@@ -1,0 +1,44 @@
+.paymentNavigation {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 5vh 0;
+}
+
+.paymentNavigation div {
+    display: flex;
+    width: 40px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 999px;
+    background: #5F7A69;
+    position: relative;
+    margin-left: 10px;
+}
+
+.paymentNavigation div span {
+    position: absolute;
+    bottom: -29px;
+    width: max-content;
+    color: #040D08;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+
+.paymentNavigation hr {
+    width: 98%;
+    border-top: 1px dashed #5F7A69;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    z-index: -1;
+}

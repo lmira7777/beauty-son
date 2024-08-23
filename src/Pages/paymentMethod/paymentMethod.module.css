@@ -1,0 +1,72 @@
+.container {
+    width: 87%;
+    margin: 7vh auto;
+}
+
+.container h2 {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.6px;
+    margin: 2vh 0;
+}
+
+.cardForm {
+    width: 70%;
+}
+
+
+
+.container>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.backBTN svg {
+    display: none;
+}
+
+
+.backBTN {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 4vh auto;
+
+    }
+
+    .container>div {
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    .cardForm {
+        width: 100%;
+    }
+
+    .container h2 {
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        line-height: 120%;
+    }
+
+    .backBTN {
+        margin-bottom: 4vh;
+        cursor: pointer;
+        display: block;
+    }
+
+    .backBTN svg {
+        display: block;
+    }
+
+}

@@ -1,0 +1,120 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.popUp {
+    display: flex;
+    padding: 34px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 24px;
+    background: #FFF;
+    width: 30%;
+
+}
+
+
+.icon {
+    background-color: #5F7A69;
+    width: 64px;
+    height: 64px;
+    border-radius: 999px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.popUp h3 {
+    color: #040D08;
+    text-align: center;
+    font-family: Jost;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.6px;
+}
+
+.popUp p {
+    color: #A1A1A1;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: -0.28px;
+}
+
+.popUp .viewOrder {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 999px;
+    background: #5F7A69;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    cursor: pointer;
+}
+
+
+.popUp .backToHome {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #5F7A69;
+    align-self: stretch;
+    border-radius: 999px;
+    border: 1px solid #5F7A69;
+    background-color: transparent;
+}
+
+
+.popUp .backToHome>* {
+    color: #5F7A69;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .popUp {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+
+}

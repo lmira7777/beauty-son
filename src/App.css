@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Jost ,sans-serif;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.app {
+    width: 100%;
+    
+}
+
+
+/* Scroll bar istəyə görə istifadə edile bilər. */
+body::-webkit-scrollbar {
+    width: 0px !important; 
+}
+
+body::-webkit-scrollbar-track {
+    background: #ffffff !important;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #5F7A69 !important;
+    border-radius: 999px !important;
+    width: 5px;
+    cursor: pointer;
+}
+

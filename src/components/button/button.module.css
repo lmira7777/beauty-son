@@ -1,0 +1,28 @@
+#greenBTN {
+    display: flex;
+    width: 312px;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 999px;
+    background: #5F7A69;
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#greenBTN:disabled {
+    background: #d3d3d3; 
+    color: #a9a9a9;
+    cursor: not-allowed; /* İmleç değişimi */
+    opacity: 0.6; /* Opaklık ayarı */
+}

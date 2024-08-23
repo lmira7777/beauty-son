@@ -1,0 +1,108 @@
+.addNewAddress {
+    width: 100%;
+    border-top: 1px solid #EDEDED;
+    padding: 5vh 0;
+    margin: 5vh 0;
+    border-radius: 16px;
+    background: #F7F7F7;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+
+.addNewAddress p {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.4px;
+}
+
+
+.addNewAddress form {
+    width: 100%;
+}
+
+
+.addNewAddress form div {
+    margin: 2vh 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inputBox input {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border: 1px solid #5F7A69;
+    color: #040D08;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    margin: 1vh 0;
+}
+
+
+.inputBox label {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+
+.inputBox input:focus {
+    outline: none;
+}
+
+.addNewAddress form p {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+
+.addNewAddress button {
+    display: flex;
+    width: 180px;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 999px;
+    background: #5F7A69;
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    border: none;
+    margin: 0;
+
+}

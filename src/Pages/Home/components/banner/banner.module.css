@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+
+
+.container {
+    display: flex;
+    width: 100%;
+    padding-left: 7vw;
+    /* Yüzde birimi koruduk */
+    background-color: #F5F8F5;
+    height: 110vh;
+    /* Yüzde birimi koruduk */
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10vh 0;
+}
+
+.text h3 {
+    color: #5F7A69;
+    font-family: "Luxurious Script";
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.12rem;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 3.375rem;
+    right: 3.125rem;
+}
+
+.text p {
+    color: #7B7B7B;
+    font-size: 1.1rem;
+    /* Font boyutunu rem birimi ile ayarladık */
+    font-style: normal;
+    font-weight: 300;
+    line-height: 155%;
+    letter-spacing: -0.0225rem;
+    /* -0.36px, 16px = 1rem, -0.36 / 16 = -0.0225rem */
+    width: 32.125rem;
+    /* 514px / 16px = 32.125rem */
+    height: 5.25rem;
+    /* 84px / 16px = 5.25rem */
+    margin: 2vh;
+    /* Yüzde birimi koruduk */
+}
+
+.text h2 {
+    color: #040D08;
+    font-family: Jost;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.09rem;
+    width: 40vw;
+    position: relative;
+    z-index: 1;
+}
+
+.text a {
+    display: flex;
+    padding: 1rem 1.5rem;
+    border-radius: 999px;
+    background: #5F7A69;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.02rem;
+    margin-top: 5.6vh;
+}
+
+.bannerIMG img {
+    position: absolute;
+    right: 0;
+    top: 2.1875rem;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: auto;
+        padding: 4vh 0;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .text {
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text h3 {
+        position: absolute;
+        font-size: 48px;
+        top: 90px !important;
+        left: 0;
+        z-index: 2;
+    }
+
+    .text p {
+        text-align: center;
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%;
+        letter-spacing: -0.32px;
+        width: 80%;
+    }
+
+    .text h2 {
+        text-align: center;
+        font-family: Jost;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 126%;
+        letter-spacing: -0.96px;
+        width: 80%;
+        position: relative;
+    }
+
+    .text a {
+        text-align: center;
+        margin: 0;
+    }
+
+    .bannerIMG img {
+        width: 100%;
+        height: auto;
+        position: static;
+
+    }
+
+}
